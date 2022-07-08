@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="background">
+   
+    <div class="calculator">
+        <h2 class="calc">Calculadora</h2>
+        <p id="resultado"></p>
+        <table>
+            <tr>
+               <td><button class="button-calc" onClick="clean()">C</button></td>
+               <td><button class="button-calc" onClick="back()" >&lt;</button></td>
+               <td><button class="button-calc" onClick="insert('/')">/</button></td>
+               <td><button class="button-calc" onClick="insert('*')">X</button></td>
+
+
+            </tr>
+
+            <tr>
+                <td><button class="button-calc" onClick="insert('7')">7</button></td>
+                <td><button class="button-calc" onClick="insert('8')">8</button></td>
+                <td><button class="button-calc" onClick="insert('9')">9</button></td>
+                <td><button class="button-calc" onClick="insert('-')">-</button></td>
+ 
+ 
+             </tr>
+
+             <tr>
+                <td><button class="button-calc" onClick="insert('4')">4</button></td>
+                <td><button class="button-calc" onClick="insert('5')">5</button></td>
+                <td><button class="button-calc" onClick="insert('6')">6</button></td>
+                <td><button class="button-calc" onClick="insert('+')">+</button></td>
+ 
+ 
+             </tr>
+
+             <tr>
+                <td><button class="button-calc" onClick="insert('1')">1</button></td>
+                <td><button class="button-calc" onClick="insert('2')">2</button></td>
+                <td><button class="button-calc" onClick="insert('3')">3</button></td>
+                <td rowspan="2"><button class="button-calc-total" onClick="calcular()">=</button></td>
+ 
+ 
+             </tr>
+
+             <tr>
+                <td colspan="2"><button class="button-calc-0" onClick="insert('0')">0</button></td>
+                <td><button class="button-calc" onClick="insert('.')">.</button></td>
+               
+ 
+ 
+             </tr>
+
+
+        </table>
+
+
+    </div>
+<footer class="footer-calc">
+    <p>By: Luciana Vivarelli</p>
+</footer>
+</div>
+</body>
+</html>

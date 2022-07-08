@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.background{
+    background-image: linear-gradient( 35deg, purple, whitesmoke, pink,orange,whitesmoke, purple);
+    height: 100vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.title-calc{
+    text-align: center;
+    font-weight: 900;
+    color:rgb(124, 71, 6);
+    
+}
+
+.calculator{
+    position: absolute;
+    background-color: rgba(122, 212, 212, 0.665);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    padding: 20px;
+}
+.calc{
+    text-align: center;
+    font-weight: 700;
+    color:rgba(116, 84, 19, 0.94);
+    text-shadow: 1px 1px 8px rgba(17, 233, 165, 0.432);
+}
+#resultado{
+    background-color: aliceblue;
+    width: 207px;
+    height:30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding:5px;
+}
+
+.button-calc{
+    width:50px;
+    height:50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-image: linear-gradient( 35deg, rgba(128, 0, 128, 0.214), rgba(245, 245, 245, 0.14), rgba(255, 192, 203, 0.121),rgba(255, 166, 0, 0.094),rgba(245, 245, 245, 0.079), rgba(128, 0, 128, 0.124));
+    border:none;
+    color:rgb(129, 71, 5);
+    margin: 3px;
+}
+.button-calc:hover{
+    background-color: rgba(0, 0, 0, 0.107);
+}
+.button-calc-total{
+ height: 106px;
+ width:50px;
+ font-size: 25px;
+ cursor: pointer;
+ background-image: linear-gradient( 35deg, rgba(128, 0, 128, 0.214), rgba(245, 245, 245, 0.14), rgba(255, 192, 203, 0.121),rgba(255, 166, 0, 0.094),rgba(245, 245, 245, 0.079), rgba(128, 0, 128, 0.124));
+ border:none;
+ color:rgb(129, 71, 5);
+ margin: 3px;
+}
+.button-calc-total:hover{
+    background-color: rgba(0, 0, 0, 0.107);
+}
+.button-calc-0{
+width:106px;
+height:50px;
+font-size: 25px;
+cursor: pointer;
+background-image: linear-gradient( 35deg, rgba(128, 0, 128, 0.214), rgba(245, 245, 245, 0.14), rgba(255, 192, 203, 0.121),rgba(255, 166, 0, 0.094),rgba(245, 245, 245, 0.079), rgba(128, 0, 128, 0.124));
+border:none;
+color:rgb(129, 71, 5);
+margin: 3px;
+}
+.button-calc-0:hover{
+    background-color: rgba(0, 0, 0, 0.107);
+}
+.footer-calc{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-calc p{
+    text-align: center;
+    padding:15px;
+    color:rgb(124, 71, 6);
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

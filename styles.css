@@ -80,7 +80,7 @@ margin: 3px;
     background-color: rgba(0, 0, 0, 0.107);
 }
 .footer-calc{
-
+   
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -89,8 +89,9 @@ margin: 3px;
 .footer-calc p{
     text-align: center;
     padding:15px;
-    font-size: 30px;
     color:rgb(124, 71, 6);
+    font-size: 23px;
     font-weight: 700;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
 }

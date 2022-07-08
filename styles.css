@@ -7,11 +7,6 @@
     background-image: linear-gradient( 35deg, purple, whitesmoke, pink,orange,whitesmoke, purple);
     height: 100vh;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}.title-calc{
-    text-align: center;
-    font-weight: 900;
-    color:rgb(124, 71, 6);
-    
 }
 
 .calculator{
@@ -21,18 +16,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 30px;
-    padding: 20px;
+    padding: 15px;
 }
 .calc{
     text-align: center;
     font-weight: 700;
     color:rgba(116, 84, 19, 0.94);
-    text-shadow: 1px 1px 8px rgba(17, 233, 165, 0.432);
+    font-size: 30px;
+    text-shadow: 1px 1px 8px rgba(246, 249, 248, 0.922);
 }
 #resultado{
     background-color: aliceblue;
-    width: 207px;
-    height:30px;
+    width: 297px;
+    height:40px;
     margin: 5px;
     font-size: 25px;
     color: black;
@@ -41,8 +37,8 @@
 }
 
 .button-calc{
-    width:50px;
-    height:50px;
+    width:70px;
+    height:70px;
     font-size: 25px;
     cursor: pointer;
     background-image: linear-gradient( 35deg, rgba(128, 0, 128, 0.214), rgba(245, 245, 245, 0.14), rgba(255, 192, 203, 0.121),rgba(255, 166, 0, 0.094),rgba(245, 245, 245, 0.079), rgba(128, 0, 128, 0.124));
@@ -54,8 +50,8 @@
     background-color: rgba(0, 0, 0, 0.107);
 }
 .button-calc-total{
- height: 106px;
- width:50px;
+ height: 156px;
+ width:70px;
  font-size: 25px;
  cursor: pointer;
  background-image: linear-gradient( 35deg, rgba(128, 0, 128, 0.214), rgba(245, 245, 245, 0.14), rgba(255, 192, 203, 0.121),rgba(255, 166, 0, 0.094),rgba(245, 245, 245, 0.079), rgba(128, 0, 128, 0.124));
@@ -67,8 +63,8 @@
     background-color: rgba(0, 0, 0, 0.107);
 }
 .button-calc-0{
-width:106px;
-height:50px;
+width:156px;
+height:70px;
 font-size: 25px;
 cursor: pointer;
 background-image: linear-gradient( 35deg, rgba(128, 0, 128, 0.214), rgba(245, 245, 245, 0.14), rgba(255, 192, 203, 0.121),rgba(255, 166, 0, 0.094),rgba(245, 245, 245, 0.079), rgba(128, 0, 128, 0.124));
@@ -90,7 +86,7 @@ margin: 3px;
     text-align: center;
     padding:15px;
     color:rgb(124, 71, 6);
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 700;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    

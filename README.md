@@ -27,10 +27,20 @@
 
 
 <br>
+<div align="center">
 
-<p><a href="mailto:lucianavivarelli@hotmail.com">💌</a></p>  
-
+<a href="https://www.linkedin.com/in/luciana-vivarelli-valgode-34640815a/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=gold" target="_blank"></a> 
+  <a href="https://www.instagram.com/lucianavivarelli/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=gold" target="_blank"></a>
+  <a href = "mailto:lucianavivarelli@hotmail.com"><img src="https://img.shields.io/badge/-Hotmail-%23333?style=for-the-badge&logo=Hotmail&logoColor=gold" target="_blank"></a>
+  
+</div>
+  
+  
 ![GitHub Org's stars](https://img.shields.io/github/stars/LucianaVivarelli?style=social)
+<hr />
+
+
+ 
 
 
   
